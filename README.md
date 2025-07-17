@@ -128,14 +128,6 @@ dig @127.0.0.1 -p 5354 minimalist.dict TXT
 
 > Response: `"Minimalist: a person who favors a moderate approach or style..."`
 
-### 📍 Your Public IP
-
-```bash
-dig @127.0.0.1 -p 5354 ip TXT
-```
-
-> Response: `"Your IP: 103.21.244.1"`
-
 ### 🧮 Digits of Pi
 
 ```bash
@@ -169,7 +161,7 @@ Contributions, feedback, and suggestions welcome.
 To test if the server is working, run:
 
 ```bash
-dig @127.0.0.1 -p 5354 help TXT
+dig @127.0.0.1 -p 5354 help 
 ```
 
 ---
