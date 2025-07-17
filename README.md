@@ -1,4 +1,4 @@
-# DNSAbuse
+# DnsAbuse
 
 A lightweight, DNS-based query system that answers practical and fun queries—without loading entire web pages.  
 Built in Go, optimized with caching, and accessed using simple DNS `dig` commands.
