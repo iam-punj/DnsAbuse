@@ -1,5 +1,5 @@
 #1 . INSTALL GOLANG 
 #2 . Run this in the root directory 
 
-go build -o dnsabuse.bin v1/cmd/dnsabuse/*.go
+go build -o dnsabuse.bin cmd/dnsabuse/*.go
 

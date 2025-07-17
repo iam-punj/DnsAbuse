@@ -3,14 +3,6 @@ address = ":5354"
 domain = "127.0.0.1"
 
 
-[timezones]
-enabled = false
-
-# You will need to manually download the cities file and move it into this directory
-# Go to http://download.geonames.org/export/dump/ and download the cities15000.zip file
-# Unzip the file and put the cities15000.txt file in the data directory.
-geo_filepath = "data/cities15000.txt"
-
 [fx]
 enabled = true
 
@@ -24,38 +16,7 @@ snapshot_file = "data/fx.snapshot"
 [ip]
 enabled = true
 
-
-[weather]
-enabled = true
-
-# Min time between each forecast entry in hours. Min is 30 minutes.
-forecast_interval = "2h"
-
-# Max forecasts to store.
-max_entries = 5
-
-cache_ttl = "2h"
-
-# Useragent for the yr.no API
-useragent = "github.com/knadh/dns.toys"
-
-snapshot_enabled = true
-snapshot_file = "data/weather.snapshot"
-
-
-[units]
-enabled = true
-
-[num2words]
-enabled = true
-
-[cidr]
-enabled = true
-
 [pi]
-enabled = true
-
-[base]
 enabled = true
 
 [dict]
@@ -72,52 +33,5 @@ max_results = 5
 [dice]
 enabled = true
 
-[coin]
-enabled = true
-
 [rand]
 enabled = true
-
-[epoch]
-enabled = true
-send_local_time = true
-
-[aerial]
-enabled = true
-
-[uuid]
-enabled = true
-max_results = 25
-
-[sudoku]
-enabled = true
-
-[excuse]
-enabled = true
-file = "data/excuses.txt"
-
-[nanoid]
-enabled = true
-max_length = 64
-max_results = 10
-
-[ifsc]
-enabled = false
-
-# Run scripts/fetch-ifsc.sh data/ifsc to fetch the data from
-# https://github.com/razorpay/ifsc/releases/download/latest/by-bank.tar.gz
-data_path = "data/ifsc"
-
-[vitamin]
-enabled = false
-
-# Data populated using: https://medlineplus.gov/ency/article/002399.htm
-file = "data/vitamins.json"
-
-[digipin]
-enabled = true
-
-[sky]
-enabled = false
-n2yo_api_key = ""
-cache_ttl = "10s"
