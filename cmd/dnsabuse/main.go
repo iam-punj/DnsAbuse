@@ -137,7 +137,6 @@ func main() {
 			services: make(map[string]Service),
 			domain:   ko.MustString("server.domain"),
 		}
-		//ge  *geo.Geo
 		mux = dns.NewServeMux()
 
 		help = [][]string{}
