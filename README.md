@@ -136,17 +136,6 @@ dig @127.0.0.1 -p 5354 pi TXT
 
 > Response: `"3.141592653589793..."`
 
----
-
-## ⚙️ Project Structure
-
-```
-DnsAbuse/
-├── main.go                  # Application entry point
-├── config.yaml              # Config file
-├── build-command.txt        # Build instructions
-├── handlers/                # Request handlers
-└── cache/                   # Caching layer
 ```
 
 ## 🙋 Author
